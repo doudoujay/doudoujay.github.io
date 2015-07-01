@@ -97,7 +97,7 @@ jQuery(document).ready(function($) {
 /*----------------------------------------------------*/
 /* Final Countdown Settings
 ------------------------------------------------------ */
-	var finalDate = '2015/7/01';
+	var finalDate = '2015/12/01';
 
 	$('div#counter').countdown(finalDate)
    	.on('update.countdown', function(event) {
